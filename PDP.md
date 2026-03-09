@@ -32,9 +32,20 @@ We also held a meeting to get to know each other more, and discussed expected ou
 
 ### Reflection
 
-The team meeting helped to get to know each other more, and to clarify expectations and behaviours throughout the duration of the project. It was a productive session in which each one of us could share past experiences and think about how to work together in a cohesive way. 
+The team meeting helped to get to know each other more, and to clarify expectations and behaviours throughout the duration of the project. It was a productive session in which each one of us could share past experiences and think about how to work together in a cohesive way.
 
 ## Week 3
 
 During this week, an online meeting was held with the project organisers, in which more details about the project were shared, such as the explanation of the business case and the expected outcomes. This session helped clarify some details about the project and to get some insight into what the ideal outcome of the project would be. It was also decided to hold weekly meetings with the project organisers throughout the semester, in order to have space for any questions or discussions that might arise. 
 
+The dataset was shared with the two groups participating in the assignment, allowing us to start basic exploration and visualisation.
+
+As a team, we started working on the Group PDP, as well as developing the Project Plan and Business Case definition.
+
+### Reflection
+
+The meeting with the company representatives helped clarify a few questions that arose from the previous team discussions. As for the group sessions, we defined a structure for the PDP, and set up personalised Github actions as well as a project board to keep the group repository organised and allow everyone to stick to the defined standards. 
+
+## Week 4
+
+### Reflection
