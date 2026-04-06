@@ -8,7 +8,7 @@ This document will serve as the main point for collecting evidence and detailing
 
 ## Project Navigation
 
-The file [Overview](Overview.md) provides a detailed, week by week table linking weekly logs, artefacts, and feedback received. It is recommended to use this as the main point of reference for navigating the project. 
+The file [Overview](Overview.md) provides a detailed, week by week table linking weekly logs, artefacts, and feedback received. It is recommended to use this as the main point of reference for navigating the project.  
 
 ## Learning Outcomes
 

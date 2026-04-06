@@ -1,4 +1,5 @@
 Retrospective - exported at 11/03/2026
+tags: #future-oriented-organisation #personal-leadership
 ## Start
 Things the team should try.; You might focus on experiments, process improvements, good habits, etc.
 * Seb: Using GitHub Kanban and assigning clear tasks 
