@@ -1,0 +1,4 @@
+
+[Regression Analysis](https://en.wikipedia.org/wiki/Regression_analysis)
+
+In [statistical modeling](https://en.wikipedia.org/wiki/Statistical_model "Statistical model"), **regression analysis** is a statistical method for [estimating](https://en.wikipedia.org/wiki/Estimation_theory "Estimation theory") the relationship between a [dependent variable](https://en.wikipedia.org/wiki/Dependent_variable "Dependent variable") (often called the _outcome_ or _response_ variable, or a _label_ in machine learning parlance) and one or more [independent variables](https://en.wikipedia.org/wiki/Independent_variable "Independent variable") (often called _regressors_, _predictors_, _covariates_, _explanatory variables_ or _features_).
