@@ -1,15 +1,17 @@
 # Overview
 
-| Week | Log + Reflection              | Evidence/Artefacts                                                                                                                     | Feedback |
-| ---- | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| 1    | [Week 1](2026-02-11-week1.md) |                                                                                                                                        |          |
-| 2    | [Week 2](2026-02-25-week2.md) |                                                                                                                                        |          |
-| 3    | [Week 3](2026-03-05-week3.md) | [Project Plan](evidence/2026-03-09-project-plan.md)                                                                                    |          |
-| 4    | [Week 4](2026-03-12-week4.md) | [Data Dictionary](evidence/2026-03-11-data-dictionary.md) <br>[GitHub Project Board](https://github.com/orgs/FontysVenlo/projects/787) |          |
-| 5    | [Week 5](2026-03-19-week5.md) |                                                                                                                                        |          |
-| 6    | [Week 6](2026-03-26-week6.md) | [Project Plan (Final Version)](evidence/2026-03-26-project-plan.pdf)                                                                   |          |
-| 7    | [Week 7](2026-04-02-week7.md) |                                                                                                                                        |          |
-| 8    | [Week 8](2026-04-10-week8)    | [Noise Threshold Calculation Notebook](evidence/notebooks/4-EDA-noise.pdf)                                                             |          |
-| 9    | [Week 9](2026-04-17-week9)    | [Physical Layout Exploration Notebook](evidence/notebooks/4.5-EDA-physical-layout.pdf)                                                 |          |
-| 10   | [Week 10](2026-04-24-week10)  |                                                                                                                                        |          |
-| 11   | [Week 11]                     |                                                                                                                                        |          |
+| Week | Log + Reflection                         | Evidence/Artefacts                                                                                                                                  |
+| ---- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | [Week 1](2026-02-11-week1.md)            |                                                                                                                                                     |
+| 2    | [Week 2](2026-02-25-week2.md)            |                                                                                                                                                     |
+| 3    | [Week 3](2026-03-05-week3.md)            | [Project Plan](evidence/2026-03-09-project-plan.md)                                                                                                 |
+| 4    | [Week 4](2026-03-12-week4.md)            | [Data Dictionary](evidence/2026-03-11-data-dictionary.md) <br>[GitHub Project Board](https://github.com/orgs/FontysVenlo/projects/787)              |
+| 5    | [Week 5](2026-03-19-week5.md)            |                                                                                                                                                     |
+| 6    | [Week 6](2026-03-26-week6.md)            | [Project Plan (Final Version)](evidence/2026-03-26-project-plan.pdf)                                                                                |
+| 7    | [Week 7](2026-04-02-week7.md)            |                                                                                                                                                     |
+| 8    | [Week 8](2026-04-10-week8)               | [Noise Threshold Calculation Notebook](evidence/notebooks/4-EDA-noise.pdf)                                                                          |
+| 9    | [Week 9](2026-04-17-week9)               | [Physical Layout Exploration Notebook](evidence/notebooks/4.5-EDA-physical-layout.pdf)                                                              |
+| 10   | [Week 10](2026-04-24-week10)             | [Dataset Reduction Notebook](evidence/notebooks/5-dataset-reduction.pdf)                                                                            |
+| 11   | [Week 11](weekly_logs/2026-05-08-week11) | [Core Model Exploration Notebook](evidence/notebooks/6-core-model.pdf)                                                                              |
+| 12   | [Week 12]                                | [Feature Analysis](../evidence/notebooks/1.5-feature-analysis.pdf)<br>[spatial-autoregressive-models.md](../notes/spatial-autoregressive-models.md) |
+| 13   | [Week 13]                                |                                                                                                                                                     |
