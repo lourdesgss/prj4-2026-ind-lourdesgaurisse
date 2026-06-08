@@ -1,11 +1,12 @@
+# Physical System Definition + First Thoughts on Continuous Representation
 ## 1. What your system actually is
 
-You are modeling a spatially structured physical system:
+You are modelling a spatially structured physical system:
 
 - 4 colors
-- each color has 30 chips
+- each colour has 30 chips
 - each chip has 1120 nozzles
-- total per color: 33600 nozzles
+- total per colour: 33600 nozzles
 
 So the fundamental spatial object is:
 
