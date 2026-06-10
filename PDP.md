@@ -143,7 +143,8 @@ Function Definition:
 
 - **Future-oriented Organisation | Level: Proficient**
   - This project's organisation faced several issues, including inconsistency in task distribution and conflicts in scheduling. A project board was proposed, however this was not fully utilised. Personally, a brief selection of tasks I wanted to complete before each meeting with Canon helped me organise myself, however the methodology followed could have followed a more structured pattern.
-
+  - Evidence: [Planning](Planning.md)
+  
 - **Investigative Ability | Level: Developing -> Proficient**
   - During the course of this project, and given the gap in knowledge I felt at the beginning of the project when given the dataset, I refined my investigative ability in various ways, through independent research, formulation, note-taking, and investigation. Some of this information is resumed in notes. 
   - Evidence: 
