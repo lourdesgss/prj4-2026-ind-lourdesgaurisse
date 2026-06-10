@@ -6,209 +6,152 @@ Link to group repository: <https://github.com/FontysVenlo/prj4-2026-grp-d3>
 
 This document will serve as the main point for collecting evidence and detailing the steps taken throughout the project towards the development of my Learning Outcomes.
 
-## Project Navigation
+---
 
-The file [Overview](Overview.md) provides a detailed, week by week table linking weekly logs, artefacts, and feedback received. It is recommended to use this as the main point of reference for navigating the project.  
+## Section 1: Project Description
 
-The file [Planning](Planning.md) provides a detailed explanation of the proposed plan to follow for the project.
-
-A detailed explanation of the activities undertaken and their content can be found in the [Activities](Activities.md) file.
-
-A clear view of evidence organised by activities can be found in the [Evidence](Evidence.md) file.
+[Project Plan](evidence/2026-03-26-project-plan.pdf)
 
 ---
 
-## Learning Outcomes
+## Section 2: Learning Outcomes
 
 ### Learning Outcome 1
 
 **LO1:** *Planning and executing a project in their track at level 2 of the HBO-i framework regarding autonomy and complexity, in an agile way.*
 
-**In my own words:** I want to develop a machine learning pipeline that predicts high-dimensional inkjet printer waveform profiles from a set of physical input parameters, while also proposing a physics-informed function that reflects the underlying system behaviour. The project focuses on three main activities: **analysis** (understanding the dataset, identifying patterns, and selecting appropriate techniques), **design** (architecting the preprocessing pipeline, dimensionality reduction strategy, and model structure), and **realisation** (implementing and evaluating the model). This is at level 2 of the HBO-i framework because the work involves making independent technical decisions, dealing with real-world data quality issues, and integrating domain knowledge into the solution.
+**In my own words:** I want to develop a machine learning pipeline that predicts inkjet printer waveform profiles from a set of physical input parameters, while also proposing a function that reflects the underlying system behaviour.
 
-- **Level:** Create
+The project focuses on three main activities:
 
----
+- **Software | Analysis | Level 2 (Proficient)**
+  - HBO Domain Description:
+    - Proficiency indicators relevant to the project:
+      - Assess the quality of a data set including descriptive statistics and visualisations
+      - Perform a requirements Analysis for a software system with various stakeholders, taking into account sustainability aspects and other quality characteristics including security
+  - In the context of the project:
+    - Understanding the dataset, identifying patterns, and selecting appropriate techniques.
+
+- **Software | Design | Level 2 (Developing)**
+  - HBO Domain Description:
+    - Proficiency indicators relevant to the project:
+      - Apply design quality criteria taking into account sustainability and other aspects such as privacy, large amounts of data and use on various devices
+      - (Level 3): Design the data architecture and model architecture including a test strategy for the data and machine learning model
+      - Prepare test designs according to a given test strategy
+  - In the context of the project:
+    - Architecting the preprocessing pipeline, dimensionality reduction strategy, model structure.
+
+- **User Interaction | Realisation | Level 2 (Developing)**
+  - HBO Domain Description:
+    - Proficiency indicators relevant to the project:
+      - Realise a visualisation of a dataset for different types of end users
+      - Use various tools and techniques to realise and test one’s own interaction design for interactive products or services for several types of end users
+- In the context of the project:
+  - Implementing and evaluating the model, producing visualisations, analysing and presenting correlations and other EDA findings to different types of users.
 
 ### Learning Outcome 2
 
-**LO2:** *Demonstrating professional skills at level 2 in the focus areas: future-oriented organization, investigative ability, personal leadership, and targeted interaction.*
+**LO2:** *Demonstrates professional skills at level 2 in the following focus areas*.
 
-- **Level:** Apply
+- **Future-oriented Organisation**
+  - Description:
+    - Organisational context, ethics, project management.
+  - In the project's context:
+    - I want to structure the project in a way that makes sense given the environment, avoiding overplanning or underplanning in accordance to external factors such as schedules, availabilities, and commitment from teammates.
+  - Beginning Level: Proficient
 
-#### Focus Areas
+- **Investigative Ability**
+  - Description:
+    - Methodical problem approach, research, solution
+  - In the project's context:
+    - I aim to improve my research abilities, being able to organise and cite my sources, as well as developing a better understanding of how I can use existing research in my tasks.
+  - Beginning Level: Developing
 
-- Future-oriented organization: I want to structure the project using an agile approach, defining milestones in advance and adjusting scope based on findings. This includes planning realistically around constraints such as data availability and time.
-- Investigative ability: I want to research and compare multiple machine learning and dimensionality reduction techniques (e.g. PCA, UMAP, XGBoost), justify my choices based on evidence from the data, and explore the physical principles behind inkjet waveform generation to ground the physics-informed modelling proposal.
-- Personal leadership: I want to take ownership of all phases of the project independently making decisions proactively and reflecting on what worked and what did not.
-- Targeted interaction: I want to communicate clearly with my project supervisors and Canon stakeholders, present findings in an understandable way, and incorporate feedback iteratively into the project direction.
+- **Personal Leadership**
+  - Description:
+    - Entrepeneurial mindset, personal development, personal profiling
+  - In the project's context:
+    - I want to keep developing my own drive to complete tasks and go beyond what is asked of me, as well as being able to self-direct my progress if external feedback isn't available. I also aim to request and actively incorporate feedback.
+  - Beginning Level: Proficient
 
----
-
-## Chosen Activities
-
-During the course of this project, I will work on the following activities of the HBO-i Domain Description:
-
-- Software: Analysis (Level 2)
-- Software: Design (Level 2)
-- User Interaction: Realisation (Level 2)
-
-## Expertise Levels
-
-The following section describes the development of expertise across activities and skill areas throughout the project. Levels are based on observable evidence from weekly logs, produced artefacts, and the increasing complexity and independence of applied work.
-
----
-
-## Activity 1 – Project Initiation, Planning and Stakeholder Alignment
-
-At the beginning of the project, expertise in this activity was at **Exploring level**, as the focus was on understanding the project context, team formation, and stakeholder expectations.
-
-By the end of this phase, the level reached **Developing**, supported by structured planning activities and consistent stakeholder communication.
-
-- **Weeks 1–2: Exploring**
-  The project environment was new and unstructured. Work focused on understanding the assignment, forming the team, and establishing initial communication channels.
-  Evidence: Week 1–2 logs
-
-- **Weeks 3–4: Developing**
-  Formal planning artefacts were produced, including the Project Plan and Data Dictionary. Stakeholder communication with Canon was established and translated into concrete project requirements.
-  Evidence:
-
-  - Project Plan
-  - Data Dictionary
-  - Stakeholder meetings
+- **Targeted Interaction**
+  - Description:
+    - Partners, communication, collaboration
+  - In the project's context:
+    - I aim to communicate effectively with my teammmates and the stakeholders, as well as improving my listening skills and in-group interactions.
+  - Beginning Level: Developing
 
 ---
 
-## Activity 2 – Data Analysis and Investigation
+## Section 3: Weekly Logs
 
-This activity progressed from **Exploring** to **Developing**, and in some areas reached **early Proficient**, particularly in independent analysis and interpretation of system structure.
+| Week                                        | Evidence                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Feedback                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Week 1](weekly-logs/2026-02-11-week1.md)   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | The Canon project was selected among other proposals due to its complexity and availability of large amounts of data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [Week 2](weekly-logs/2026-02-25-week2.md)   | [Group Repository](https://github.com/FontysVenlo/prj4-2026-grp-d3) \| LO2: Targeted Interaction \| LO2: Future Oriented Organisation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Establishing stakeholder contact with Canon and structuring team expectations while setting up the group repository include structured communication with multiple parties and proactive team organisation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [Week 3](weekly-logs/2026-03-05-week3.md)   | [Project Plan](/evidence/2026-03-09-project-plan.md) \| LO2: Targeted Interaction \| LO1: Analysis \| LO2: Future Oriented Organisation <br>  [Group PDP](https://github.com/FontysVenlo/prj4-2026-grp-d3/blob/development/team/group-pdp.md) \| LO2: Targeted Interaction  <br>  [Canon Meeting Notes](evidence/meeting-notes-canon-2026-03-05.md) \| LO2: Targeted Interaction                                                                                                                                                                                                                                                                                                                                           | Stakeholder meeting with Canon clarified business requirements. Initial dataset exploration began. Project Plan and Business Case definition address organisational planning.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | We discussed the steps taken so far with the company, such as the weekly meetings proposed by them and the upcoming steps once we gather the necessary data. We also started writing a Business Case, in order to make sure everyone in the group is on the same page about the expected outcomes, as well as the PDP and the group repository.                                                                                                                                                                                                                                        |
+| [Week 4](weekly-logs/2026-03-12-week4.md)   | [Data Dictionary](evidence/2026-03-11-data-dictionary.md) \| LO1: Analysis \| LO2: Investigative Ability \| LO2: Personal Leadership <br> [GitHub Project Board](https://github.com/orgs/FontysVenlo/projects/787) \| LO2: Future Oriented Organisation \| LO2: Personal Leadership <br> [Retrospective](evidence/2026-03-11-retrospective1.md) \| LO2: Targeted Interaction \| LO2: Future Oriented Organisation <br> [Initial Dataset Exploration](evidence/2026-03-16-initial-data-exploration.md) \| LO1: Analysis \| LO2: Investigative Ability \| LO2: Future Oriented Organisation \| LO2: Personal Leadership                                                                                                      | Data dictionary development and business case refinement required investigation of domain terminology and Canon standards. Retrospective and GitHub Project Board introduction demonstrate structured self-organisation and team leadership.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | During this individual meeting I went over the initial draft of my PDP. Some of the feedback I received was to create an Evidence section and start linking the corresponding artefacts to my Learning Outcomes. I will also specify in more detail how I will apply my chosen activities (Software: Analysis, Design, and Realisation) in specific tasks, particularly within the CRISP-DM framework, and select my current activity level and the level I aim to achieve by the end of the project. Overall, the feedback was positive and helped me identify areas for improvement. |
+| [Week 5](weekly-logs/2026-03-19-week5.md)   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Physically absent due to medical leave, I kept working on data exploration with limited time.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [Week 6](weekly-logs/2026-03-26-week6.md)   | [Project Plan (Final Version)](evidence/2026-03-26-project-plan.pdf) \| LO2: Future Oriented Organisation, Personal Leadership, Targeted Interaction                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Despite medical leave, delivering the final LaTeX project plan, presenting to stakeholders, and maintaining alignment with the team demonstrates personal leadership under reduced capacity and targeted communication.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | During this meeting we agreed to step back a bit, since we realised that the group doesn't have the same base understanding of the dataset. We decided to focus on more basic understanding of the parameters this week, in order to make sure we are all on the same level. It was suggested we find a common definition of the quality of pictures, coming up with our own label for the quality assessment of a print, as well as depending out understanding of basic kinds of values in order to be able to make the data visualisations more meaningful and accurate.            |
+| [Week 7](weekly-logs/2026-04-02-week7.md)   | [Dataset Physical Structure](evidence/notebooks/2-dataset-structure.md) \| LO2: Personal Leadership \| LO2: Targeted Interaction \| LO2: Investigative Ability \| LO1: Analysis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Proactively re-integrating after absence, re-clarifying task distribution, and proposing a Skills coach session to resolve team dynamic issues reflects both personal leadership and targeted stakeholder interaction. Resumed dataset engagement and began investigative work.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | I was not present during this meeting due to personal issues, however a meeting was held with my teammates to discuss what was talked about during the checkpoint. It was decided that a meeting regarding teamwork and collaboration would be necessary, so this was requested to Mr. Chaaya. As for the work realised during this period, the focus was given to deepening the EDA process and the presentation of the project plan due the past weekend.                                                                                                                            |
+| [Week 8](weekly-logs/2026-04-10-week8.md)   | [Noise Threshold Calculation Notebook](evidence/notebooks/4-EDA-noise.pdf) \| LO1: Analysis \| LO2: Investigative Ability                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [Week 9](weekly-logs/2026-04-17-week9.md)   | [Physical Layout Exploration Notebook](evidence/notebooks/4.5-EDA-physical-layout.pdf) \| LO1: Analysis \| LO1: Realisation \| LO2: Investigative Ability                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Spatial visualisation of the printer layout constitutes realisation of a dataset visualisation for domain end users. Investigating how logical data dimensions map to physical hardware is a clear exercise of investigative ability, and the descriptive exploration satisfies the quality assessment indicator in Activity 1.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | The team presented the results we have gotten so far, as well as updates on the work being done in this period, which focus more on experimentation with different machine learning algorithms after a period of EDA. It was suggested that we make a clear summary of the results of the EDA period, which are currently spread across different files, which will help the team have a clearer overview of the progress made so far and zoom out in order to facilitate the algorithm selection.                                                                                     |
+| [Week 10](weekly-logs/2026-04-24-week10.md) | [Dataset Reduction Notebook](evidence/notebooks/5-dataset-reduction.pdf) \| LO1: Analysis \| LO1: Design \| LO2: Investigative Ability                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Designing and implementing the Polars lazy pipeline satisfies the data architecture design indicator (Activity 2, L3). Verifying `dt2` group structure before aggregating is quality-conscious analysis. Revising project objectives mid-way reflects investigative re-alignment.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [Week 11](weekly-logs/2026-05-08-week11.md) | [Core Model Exploration Notebook](evidence/notebooks/6-core-model.pdf) \| LO1: Analysis \| LO1: Design \| LO2: Investigative Ability                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Designing the `ColumnTransformer` preprocessing pipeline and applying PCA is both model architecture design (Activity 2, L3) and analytical assessment of the feature space. The `dt2` dominance finding and the attempt to normalise it out demonstrate structured investigative reasoning under uncertainty.<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [Week 12](weekly-logs/2026-05-14-week12.md) | [Feature Analysis](../evidence/notebooks/1.5-feature-analysis.pdf) \| LO1: Analysis \| LO1: Design \| LO2: Investigative Ability <br> [spatial-autoregressive-models.md](spatially-autoregressive-models.md) \| LO2: Investigative Ability \| LO2: Personal Leadership                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Per-feature  analysis with cross-tabulations satisfies the descriptive statistics and visualisation quality indicator. Identifying `V + F_r` as a composite feature and recognising the spatial structure of `HeadIdx#` are investigative findings that directly shape model architecture decisions. Reviewing spatial autoregressive literature extends investigative ability into new methodological territory.                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [Week 13](weekly-logs/2026-05-21-week13)    | [First Function Definition](evidence/physical-notes/1-function-definition.pdf) \| LO1: Analysis \| LO1: Realisation \| LO2: Investigative Ability \| LO2: Personal Leadership <br> [Research on Spatially Aware Regressive Models](notes/research/spatial-autoregressive-model.md) \ LO1: Analysis \| LO2: Investigative Ability \| LO2: Personal Leadership                                                                                                                                                                                                                                                                                                                                                               | Participated in a team coaching session to discuss team dynamics and identify improvements for collaboration. Shifted project focus from exploratory analysis to formal system modelling, producing an initial mathematical definition of the printer response function and investigating spatial relationships between nozzles.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [Week 14](weekly-logs/2026-05-28-week14.md) | [Function Domain and Codomain definition](evidence/physical-notes/2-dimensionality-definition.pdf) \| LO1: Analysis \| LO1: Realisation \| LO2: Investigative Ability \| LO2: Personal Leadership <br> [Function Definition (digital)](evidence/function-definition) \| LO1: Analysis \| LO1: Realisation \| LO2: Investigative Ability \| LO2: Personal Leadership <br> [Research on Continuous Function Definition](notes/system-definition-summary.md) \| \| LO1: Analysis \| LO2: Investigative Ability \| LO2: Personal Leadership <br> [Research on Physics-Informed Neural Networks](notes/research/physics-informed-neural-networks.md) \| LO1: Analysis \| LO2: Investigative Ability \| LO2: Personal Leadership | This week focused on formalizing the mathematical definition of the printer response function, including encoding strategies for ambiguous variables and distinguishing between per-nozzle and per-chip configurations. In consultation with the Canon coach, I proposed reframing the problem from a discrete independent-nozzle model to a continuous spatial response field motivated by observed local dependencies between neighboring nozzles. While exploratory, this perspective offers a more natural way to capture spatial effects using kernels and may reduce reliance on manually defined coupling weights. Formalizing the function also exposed practical challenges around dimensionality and parameter encoding, reinforcing the importance of precise mathematical foundations before implementation. |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [Week 15](weekly-logs/2026-03-19-week15.md) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
-- **Weeks 4–6: Exploring → Beginner**
-  Initial dataset exploration and basic understanding of structure were developed under guidance of the project plan.
-  Evidence: early dataset exploration
+## Section 4: Research, Personal Notes, and Sources Consulted
 
-- **Weeks 7–9: Beginner → Developing**
-  Independent exploratory analysis began, including noise investigation and spatial analysis of the printer structure. Data inconsistencies were identified and interpreted.
-  Evidence:
+Project Understanding:
 
-  - Noise analysis notebook
-  - Physical layout exploration
+- [Canon Presentation](sources/canon-presentation.md)
+- [Print Image Quality](sources/print-image-quality.pdf)
+- [Waveform Tuning Assignment](sources/waveform-tuning-fontys-prj4.pdf)
 
-- **Weeks 10–12: Developing (borderline Proficient in parts)**
-  More advanced analytical work was performed, including data reduction pipelines, PCA evaluation, and feature-level system interpretation. This phase required independent reasoning and iterative refinement of assumptions.
-  Evidence:
+Data Analysis:
 
-  - Dataset reduction pipeline
-  - Core model PCA analysis
-  - Feature analysis notebook
+- [Dimensionality Reduction Techniques](notes/dimensionality-reduction-techniques.md)
+- [Predicting SD Values](notes/predicting-SD-values.md)
 
----
+Function Definition:
 
-## Activity 3 – System Modelling and Conceptual Design
+- [System Definition Summary](notes/system-definition-summary.md)
+- [Physics Informed Neural Networks](notes/research/physics-informed-neural-networks.md)
+- [Spatial Autoregressive Models](notes/research/spatially-autoregressive-model.md)
+- [Spatial Interactions in Discrete Systems](notes/research/spatial-interactions-in-discrete-systems.md)
 
-This activity developed from **Exploring** to **Developing**, with early elements of structured system-level thinking emerging in later weeks.
+## Section 5: Summary and Reflection
 
-- **Weeks 11–12: Exploring → Developing**
-  Initial modelling attempts focused on preprocessing design and PCA evaluation. These steps clarified limitations of standard modelling approaches for this dataset.
-  Evidence: Core model notebook
+### Learning Outcomes 1
 
-- **Weeks 13–14: Developing**
-  The focus shifted toward formalising a mathematical representation of the system. A first draft function was developed, and alternative modelling approaches (spatial and continuous representations) were explored.
-  Evidence:
+- **Software | Analysis | Level: Proficient -> Advanced**
+  - During this project I focused mostly on this topic. I prioritised the EDA phase against my teammates' desire to advance faster into modelling, however this allowed me to acquire a much deeper understanding of the system, which led to the proposal of a function capable of representing the whole system. While this formulation took more time than I would have liked, it allowd me to view the project from a radically different point of view, and further develop abstract thinking capabilities as well as revisiting mathematical knowledge relevant to data science.
+  - Evidence: 
 
-  - Function definition (draft)
-  - Dimensionality definition
-  - Research on spatial modelling approaches
+- **Software | Design | Level: Developing -> Proficient**
+  - While a bit more sidelined in the beginning of the project, the design of a system that could represent the real world constraints helped me advance in this regard. I improved my knowledge of data science related technologies, as well as deepening my understanding of machine learning models.
+  - Evidence:
 
----
+- **User Interaction | Realisation | Level: Developing -> Proficient**
+  - While this was the least developed skill area at the start, it improved later in the project through the process of implementing and evaluating the model. Data visualisations were created to communicate dataset structure, model behaviour, and exploratory findings such as correlations and patterns in the data. 
+  - Evidence: 
 
-## Skill Area 1 – Future-Oriented Organisation
+### Learning Outcomes 2
 
-- **Weeks 1–2: Exploring**
-  Initial exposure to team formation and project structure.
+- **Future-oriented Organisation | Level: Proficient**
+  - This project's organisation faced several issues, including inconsistency in task distribution and conflicts in scheduling. A project board was proposed, however this was not fully utilised. Personally, a brief selection of tasks I wanted to complete before each meeting with Canon helped me organise myself, however the methodology followed could have followed a more structured pattern.
 
-- **Weeks 3–5: Developing**
-  Creation of structured planning documents and introduction of iterative planning cycles.
+- **Investigative Ability | Level: Developing -> Proficient**
+  - During the course of this project, and given the gap in knowledge I felt at the beginning of the project when given the dataset, I refined my investigative ability in various ways, through independent research, formulation, note-taking, and investigation. Some of this information is resumed in notes. 
+  - Evidence: 
 
-- **Weeks 6–10: Developing**
-  Planning was continuously adjusted based on stakeholder feedback and technical findings. The project moved from static planning to adaptive weekly planning cycles.
-  Evidence:
+- **Personal Leadership | Level: Proficient -> Advanced**
+  - The context of this project presented multiple challenges that required a strong sense of responsibility and self direction. The research and direction of the project were mostly left to define individually, which required a structured approach and incentive to work on my own.
+  - Evidence:
 
-  - Project Plan (final version)
-  - GitHub Project Board
-  - Retrospectives
-
-- **Weeks 11–14: Developing → Proficient**
-  Planning became closely coupled with analytical findings. Decisions about modelling direction were continuously updated based on dataset structure and system understanding.
-
----
-
-## Skill Area 2 – Investigative Ability
-
-- **Weeks 1–3: Exploring**
-  Initial exposure to dataset and problem domain.
-
-- **Weeks 4–7: Beginner**
-  Basic exploratory analysis and understanding of dataset structure and terminology.
-
-- **Weeks 8–10: Developing**
-  Structured investigation of noise patterns, spatial layout, and aggregation consistency. Data assumptions were critically evaluated and refined.
-  Evidence:
-
-  - Noise analysis notebook
-  - Physical layout analysis
-  - Dataset reduction pipeline
-
-- **Weeks 11–12: Developing → Proficient (partial)**
-  Advanced interpretation of feature relationships, including identification of composite variables and spatial dependencies. PCA results were critically analysed and used to revise modelling direction.
-  Evidence:
-
-  - Feature analysis notebook
-  - PCA core model notebook
-  - Spatial modelling research
-
----
-
-## Skill Area 3 – Personal Leadership
-
-- **Weeks 1–3: Exploring**
-  Initial participation in team formation and communication.
-
-- **Weeks 4–6: Beginner → Developing**
-  Contribution to retrospectives, structured documentation, and continuity during reduced availability.
-
-- **Weeks 7–10: Developing**
-  Re-integration into team workflow after absence, identification of collaboration issues, and initiation of external support (skills coach).
-  Evidence:
-
-  - Week 7 log
-  - Retrospective actions
-  - Coordination discussions
-
-- **Weeks 11–14: Developing → Proficient**
-  Took ownership of conceptual shift in modelling direction and supported transition toward system-level thinking (spatial/physical representation).
-  Evidence:
-
-  - Function definition work
-  - Modelling direction changes in logs
-
----
-
-## Skill Area 4 – Targeted Interaction
-
-- **Weeks 1–2: Exploring**
-  Initial team and stakeholder communication setup.
-
-- **Weeks 3–4: Beginner → Developing**
-  Structured stakeholder meetings with Canon and clarification of project requirements.
-
-- **Weeks 5–8: Developing**
-  Regular communication cycles with Canon and structured team coordination through retrospectives and sprint planning.
-
-- **Weeks 9–14: Developing → Proficient**
-  Continued stakeholder communication during technical uncertainty, participation in skills coach sessions, and structured presentation of evolving modelling perspectives.
-  Evidence:
-
-  - Canon meeting logs
-  - Skills coach session
-  - Weekly coordination notes
+- **Targeted Interaction | Level: Developing -> Proficient**
+  - The beginning of this project presented a few issues regarding teamßwork and different communication styles between each member. While some situations were hard to navigate, with the development of the project this skill improved. 
+  - Evidence: 

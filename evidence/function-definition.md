@@ -1,7 +1,7 @@
 28/05/2026
 # Formal Definition
 
-$$f : \mathbb{R}^5 \times \mathbb{R}^{33600 \times 3} \to \mathbb{R}^{33600}$$
+$$f : \mathbb{R}^34 \times \mathbb{R}^{33600 \times 3} \to \mathbb{R}^{33600}$$
 
 $$f(\theta, U)_i = s(U_i) + \sum_{j \in \mathcal{N}(i)} W_{ij}(\theta), s(U_j) + \varepsilon_i$$
 
@@ -9,7 +9,7 @@ $$f(\theta, U)_i = s(U_i) + \sum_{j \in \mathcal{N}(i)} W_{ij}(\theta), s(U_j) +
 
 | Symbol                               | Meaning                                | Space                             |
 | ------------------------------------ | -------------------------------------- | --------------------------------- |
-| $\theta$                             | global settings (colour, coverage)     | $\mathbb{R}^5$                    |
+| $\theta$                             | global settings (colour, coverage)     | $\mathbb{R}^34$                    |
 | $U$                                  | per-nozzle input field                 | $\mathbb{R}^{33600 \times 3}$     |
 | $U_i = (V_{h(i)}, Fr_{h(i)}, dt2_i)$ | input vector for nozzle $i$            | $\mathbb{R}^3$                    |
 | $s(U_i)$                             | baseline response of nozzle $i$        | $s : \mathbb{R}^3 \to \mathbb{R}$ |

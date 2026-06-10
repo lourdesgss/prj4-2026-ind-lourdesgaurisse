@@ -1,37 +1,48 @@
-# Selecting an approach for dimensionality reduction backed up by Facts and Logic
+# Dimensionality Reduction Techniques
 
-Pre-decision information checklist:
-- What is the raw feature representation going into the reduction? (Time-series waveform samples, frequency bins, hand-crafted statistics, or some combination?)
-	- Time-series waveform samples
-- Are all features dense and continuous, or do you have sparse or categorical features mixed in?
-	- Dense & continuous (in theory) features
-- Are feature values non-negative (magnitudes, power spectra) or signed?
-	- Non-signed
-- What is the intrinsic dimensionality estimate? (Even rough: PCA explained variance curve, or nearest-neighbour distance distributions)
-	- IDK
-- Do you have known labels or groupings on a subset? (Waveform categories, known-good vs. defective prints, colour outcome buckets)
-	- Nope
+The selection of an appropriate dimensionality reduction method depends on several characteristics of the dataset, the modelling objective, and the intended use of the transformed representation.
 
-**About the goal**
-- Is dimensionality reduction primarily for visualisation, for noise filtering, or as a preprocessing step before a predictive model?
-	- Predictive model
-- Do you need the reduced dimensions to be interpretable and mappable back to original features?
-	- Yes
-- Is the downstream model sensitive to linearity assumptions, or is it a black-box that can handle any latent space?
-	- 
-- Do you need to apply the learned reduction to new, unseen data at inference time? (Rules out t-SNE; favours PCA, autoencoders, UMAP with `transform`)
+## Data Characteristics
 
-**About your noise separation problem specifically**
-- Do you have a hypothesis about the structure of measurement noise versus process variability? (e.g., additive Gaussian noise → ICA or PCA; structured periodic artefacts → frequency-domain methods first)
-- Can you produce a "clean reference" subset or known-noise conditions for validation?
-- Is noise independent across channels/features, or correlated?
+The nature of the feature representation influences which techniques are suitable. Relevant considerations include whether the input consists of raw time-series measurements, frequency-domain representations, hand-crafted statistical features, or a combination of these. Feature type is also important, particularly whether variables are continuous, categorical, sparse, or dense.
 
-**About scale and infrastructure**
-- What is your compute environment? (Single machine, cluster, GPU availability)
-- What is the acceptable runtime for an offline fitting step vs. an online transform?
-- Can you fit on a random sample and apply the transform to the full dataset, or does the full distribution matter for fitting?
+The distribution of feature values may affect method selection. Some algorithms assume non-negative inputs, while others can accommodate signed values. An estimate of the dataset's intrinsic dimensionality can also be useful for determining how much compression is realistically achievable without significant information loss.
 
-**About evaluation**
-- How will you judge that the reduction worked? (Reconstruction error, downstream model performance, visual cluster separation, noise variance explained)
-- Do you have a held-out labelled test set for downstream model evaluation?
-- Is there a human-interpretable sanity check you can run? (e.g., known waveform defects appearing as outliers in the reduced space)
+When available, existing labels, classes, or known groupings may provide additional guidance by allowing supervised evaluation of reduced representations.
+
+## Modelling Objectives
+
+Dimensionality reduction may serve different purposes, including:
+
+* Data visualisation
+* Noise reduction and signal extraction
+* Feature compression for predictive modelling
+
+The intended objective affects the choice of technique. For predictive modelling, it is important to consider whether the reduced features must remain interpretable and whether they should be traceable back to the original variables.
+
+Another consideration is whether the learned transformation must be applied to unseen data during inference. Some methods naturally support out-of-sample transformation, while others are primarily intended for exploratory analysis and cannot easily generalise to new observations.
+
+## Noise and Variability
+
+Understanding the relationship between signal and noise is often critical. Important questions include whether measurement noise is expected to be random or structured, whether process variability can be distinguished from noise, and whether correlations exist between different features or channels.
+
+The availability of clean reference data or controlled conditions may provide opportunities to validate whether a dimensionality reduction method successfully separates meaningful variation from unwanted noise.
+
+## Computational Constraints
+
+Practical considerations include available computational resources, acceptable training and inference times, and dataset size. Some methods can be trained on representative subsets and then applied to larger datasets, while others require access to the full data distribution during fitting.
+
+Hardware availability, including access to GPUs or distributed computing resources, may also influence the feasibility of more computationally intensive approaches.
+
+## Evaluation Criteria
+
+The effectiveness of a dimensionality reduction technique should be assessed using objective criteria aligned with the intended application. Common evaluation approaches include:
+
+* Reconstruction error
+* Preservation of variance
+* Downstream predictive model performance
+* Cluster separation in reduced space
+* Noise variance reduction
+
+Where labels are available, performance can be validated on a held-out test set. Additional qualitative or domain-specific sanity checks may also be useful to determine whether meaningful patterns remain visible after transformation.
+
