@@ -3,7 +3,6 @@
 ## Learning Outcome 1
 
 Plans and executes a project in their track at level 2 of the HBO-i framework regarding autonomy and complexity, in an agile way.
-
 Bloom Level: Create
 
 ### Activity 1: Software, Analysis, Level 2
@@ -51,5 +50,3 @@ tags: #personal-leadership
 ### Targeted Interaction
 
 tags: #targeted-interaction
-
-
