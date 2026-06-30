@@ -12,4 +12,4 @@ Although the project's official timeline has now ended, I don't consider the pro
 
 ## Evidence
 
-- [NiceGUI Predictor Frontend](../evidence/code/predictor_frontend.py)
+- [NiceGUI Predictor Frontend](../evidence/frontendv2.py)

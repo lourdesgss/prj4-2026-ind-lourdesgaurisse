@@ -26,6 +26,7 @@ $$f(\theta, U)_i = s(U_i) + \sum_{j \in \mathcal{N}(i)} W_{ij}(\theta), s(U_j) +
 - **Neighbourhood $\mathcal{N}(i)$** — how many neighbours, and by what criterion? (k-nearest, distance threshold, physical adjacency)
 - **Functional form of $W_{ij}(\theta)$** — parametric decay, uniform contiguity, or data-driven from residual autocorrelation
 - **Whether $W_{ij}$ depends on $\theta$ at all** 
+
 ## On Continuity
 Domain and codomain
 $$f : \mathbb{R}^5 \times (\mathcal{X} \to \mathbb{R}^3) \to (\mathcal{X} \to \mathbb{R})$$

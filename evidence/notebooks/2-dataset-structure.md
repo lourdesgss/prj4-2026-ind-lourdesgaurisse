@@ -1,11 +1,12 @@
 # Dataset Structure Understanding
 
 Since I still don't SEE how the dataset actually represents irl data I'll try to illustrate it here so it clicks.
+
 ### Data Hierarchy 
 
 This is the actual data hierarchy, not the way it is currently represented in the dataset:
 
-![DataHierarchy](dataHierarchy.png)
+![DataHierarchy](assets/dataHierarchy.png)
 
 IF the dataset was structured in this way, there would be one row per nozzle measurement, and the table would look like this:
 
@@ -17,7 +18,7 @@ IF the dataset was structured in this way, there would be one row per nozzle mea
 
 HOWEVER, the dataset is stored in a wide format.
 
-![DatasetHierarchy](datasetHierarchy.png)
+![DatasetHierarchy](assets/datasetHierarchy.png)
 
 This means that the table looks like:
 
@@ -31,6 +32,7 @@ each row = a “scanline” / “print pass”
 each value_XXXX = spatial position (nozzle index)
 
 So we treat nozzle values as a vector of measurements per condition.
+
 ## Nozzle Measurements
 
 But what exactly is the value we're measuring? They are Scanner Density values:

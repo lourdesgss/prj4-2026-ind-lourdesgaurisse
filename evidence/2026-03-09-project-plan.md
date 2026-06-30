@@ -1,5 +1,7 @@
 # Project Plan
-tags: #analysis 
+
+tags: #analysis
+
 ## Context
 
 Canon Production Printing is a company headquartered in Venlo, The Netherlands, specialising in creating software solutions that allow customers to manage their document processes and printer fleet. Canon continuously works to improve print quality, reliability, and production efficiency. One important aspect of this process is the calibration and optimisation of printheads, which are responsible for generating and ejecting microscopic drops of ink onto a substrate.

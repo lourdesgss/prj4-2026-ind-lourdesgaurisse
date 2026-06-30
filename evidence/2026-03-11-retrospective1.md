@@ -1,7 +1,11 @@
-Retrospective - exported at 11/03/2026
+# Retrospective - exported at 11/03/2026
+
 tags: #future-oriented-organisation #personal-leadership
+
 ## Start
+
 Things the team should try.; You might focus on experiments, process improvements, good habits, etc.
+
 * Seb: Using GitHub Kanban and assigning clear tasks 
 * Seb: Expressing thoughts early to avoid misunderstandings 
 * Seb: Document changes/additions so everybody is up to date 
@@ -20,6 +24,7 @@ Things the team should try.; You might focus on experiments, process improvement
 * lulu: Active participation: provide ideas, results, personal investigations
 
 ## Stop
+
 Things the team should stop doing; You might focus on inefficiencies, time wasters, bad behaviours/habits, etc.
 * daniil: panic / overthinking
 * daniil: not being present 
@@ -28,6 +33,7 @@ Things the team should stop doing; You might focus on inefficiencies, time waste
 * bram: Subjectively thinking , I believe that there are many ways to Rome, but substructure. 
 
 ## Continue
+
 Things that worked well in the past but are not yet habits or part of the process.
 * lulu: Keep GitHub project board organised and up to date (good for PDP) 
 * lulu: Review commits, maintain good repository hygiene
@@ -37,5 +43,6 @@ Things that worked well in the past but are not yet habits or part of the proces
 * daniil: meeting preparation 
 
 ## Action points
+
 * keep the git repository settings and rules; 
 * product backlog in the future ; 

@@ -1,4 +1,5 @@
 # Data Dictionary
+
 tags: #analysis
 
 - [Offset Printing](https://global.canon/en/technology/iqq-evaluation-2022.html): analog method involving the transfer of ink from a metal printing plate to the printing surface via a rubber blanket. It achieves consistently high quality printing, making it well suited for high-volume prints of the same content.
@@ -14,15 +15,15 @@ electrostatic digital printing process that uses a repeatedly passing laser beam
 
 - [Image Quality Qualitative (IQQ) Evaluation Technology](https://global.canon/en/technology/iqq-evaluation-2022.html): system that allows to assign a value to subjective image quality criteria. It is composed of five evaluation metrics:
   - Noise (banding and graininess)
-    ![Noise](evidence/assets/data_dictionary/noise.png)
+    ![Noise](assets/data_dictionary/noise.png)
   - Text and lines
-    ![Text and lines](evidence/assets/data_dictionary/text.png)
+    ![Text and lines](assets/data_dictionary/text.png)
   - Sharpness
-    ![Sharpness](evidence/assets/data_dictionary/sharpness.png)
+    ![Sharpness](assets/data_dictionary/sharpness.png)
   - Color
-    ![Color](evidence/assets/data_dictionary/color.png)
+    ![Color](assets/data_dictionary/color.png)
   - Gloss
-    ![Gloss](evidence/assets/data_dictionary/gloss.png)
+    ![Gloss](assets/data_dictionary/gloss.png)
 
 -[Banding](https://prisco.com/inkjet-banding-what-is-it-and-how-can-it-be-fixed): Banding is a defect in inkjet printing that will appear as horizontal or vertical lines in the printed output. This can be caused by blocked nozzles, deflected nozzles, or a misaligned printhead.
 

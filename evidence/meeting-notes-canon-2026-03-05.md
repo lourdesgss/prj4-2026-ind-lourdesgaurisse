@@ -23,10 +23,12 @@
 ## Discussion notes
 
 ### Approach
+
 - Try to model physics and physical process, mathematics, experiments
 - Mathematics might be involved
 
 ### Technical stack
+
 - Python
 - R (maybe)
 - Canon contact uses Python
